@@ -19,7 +19,7 @@ public class studentEntity {
         this.id = id;
     }
     public Long getId(){
-        
+        return id;
     }
 
     public studentEntity(){
@@ -27,6 +27,7 @@ public class studentEntity {
     }
     public studentEntity(Long id,String name, String email){
         this.id=id;
-        this.name
+        this.name = name;
+        this.email=email;
     }
 }
