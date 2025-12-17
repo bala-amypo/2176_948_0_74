@@ -9,11 +9,11 @@ public class studentEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank(message="Name is not Valid");
+    @NotBlank(message="Name is not Valid")
     private String name;
     
     @Email(message = "Email Format is not Valid")
-    private string email;
+    private String email;
 
     public void setId(Long id){
         this.id = id;
